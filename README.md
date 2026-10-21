@@ -91,7 +91,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
-| `profile-found`, per person found | $0.037 | $0.03515 | $0.0333 | $0.03145 |
+| `profile-found`, per person found | $0.34 | $0.323 | $0.306 | $0.289 |
 | `apify-actor-start`, per run start | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
 
 `ambiguous`, `not_found`, `blocked`, and `error` rows are free.
