@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-person-linkedin-url-resolver": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-person-linkedin-url-resolver"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
