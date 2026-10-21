@@ -19,7 +19,7 @@ Give it a person's name and company domain (or company name). Each run reads Goo
 
 ## What it does
 
-- `match_status` is `found` at a confidence of 0.8 or more with a clear lead over every other profile, `ambiguous` (the likely URL, not charged), `not_found`, or `blocked`.
+- `match_status` is `found` at a confidence of 0.8 or more with a clear lead over every other profile, `ambiguous` (the likely URL), `not_found`, or `blocked`.
 - `company_match` says whether the company is `current` (headline or a present role), `former` (marked prev, ex, or former), or only `mentioned`.
 - Posts, articles, and directory pages are dropped; only `/in/` profile URLs are returned.
 
@@ -91,10 +91,10 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
-| `profile-found`, per person found | $0.34 | $0.323 | $0.306 | $0.289 |
+| `person-searched`, per input person | $0.035 | $0.03325 | $0.0315 | $0.02975 |
 | `apify-actor-start`, per run start | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
 
-`ambiguous`, `not_found`, `blocked`, and `error` rows are free.
+`found`, `ambiguous`, and `not_found` rows each cost one `person-searched`. `blocked` and `error` rows are free. The actor reads at most 2 Google result pages per person.
 
 ## Your keys
 
