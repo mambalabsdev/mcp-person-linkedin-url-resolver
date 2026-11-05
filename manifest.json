@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-person-linkedin-url-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Person LinkedIn URL Resolver. Find a person's LinkedIn profile URL from their name and company, with a match confidence and a current or former employer flag, read from Google result pages. Never opens LinkedIn. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
